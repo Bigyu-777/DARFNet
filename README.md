@@ -28,6 +28,9 @@ pip install -r requirements.txt
 ```
 
 ## 🚀 Usage
+🛠️ Dataset 
+链接: https://pan.baidu.com/s/1ezeL7leV-Hq8GZtc9-QXtw?pwd=1234 提取码: 1234 
+
 🔧 Training
 Prepare your RGB+IR dataset in YOLO format. Update the .yaml file under data/ to include your dataset paths.
 ```bash
