@@ -71,6 +71,6 @@ python train.py \
   --img 1024 \
   --batch 8 \
   --epochs 100 \
-  --data data/vedai.yaml \
-  --cfg models/darfnet.yaml \
+  --data data/multispectral/vedai_color_2.yaml \
+  --cfg models/DARFnet.yaml \
 ```
