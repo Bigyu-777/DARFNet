@@ -76,4 +76,8 @@ python train.py \
 | **DARFNet (Ours)** | **90.90** | **14.3**     | **36.3**  |
 
 ---
+📄 About Me
+Hi, I'm [Junyu Huang], a passionate researcher and developer with a strong interest in computer vision, deep learning, and multispectral image processing. I'm currently looking for graduate research opportunities or industry positions related to AI and computer vision.
 
+If you're interested in my background, feel free to check out my online resume[https://bigyu-777.github.io/resume].
+I'm open to collaborations, research discussions, or any exciting opportunities.
