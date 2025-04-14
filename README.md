@@ -19,6 +19,25 @@ DARFNet integrates the **DARF module** into the YOLOv5 backbone to improve multi
 - Efficient fusion strategy to maintain real-time performance.
 
 ---
+## 🛠️ Installation
+
+```bash
+git clone https://github.com/yourusername/DARFNet.git
+cd DARFNet
+pip install -r requirements.txt
+```
+
+## 🚀 Usage
+🔧 Training
+Prepare your RGB+IR dataset in YOLO format. Update the .yaml file under data/ to include your dataset paths.
+```bash
+python train.py \
+  --img 1024 \
+  --batch 8 \
+  --epochs 100 \
+  --data data/multispectral/vedai_color_2.yaml \
+  --cfg models/DARFnet.yaml \
+```
 
 ## 📊 Benchmark Results
 
@@ -55,22 +74,3 @@ DARFNet integrates the **DARF module** into the YOLOv5 backbone to improve multi
 
 ---
 
-## 🛠️ Installation
-
-```bash
-git clone https://github.com/yourusername/DARFNet.git
-cd DARFNet
-pip install -r requirements.txt
-```
-
-## 🚀 Usage
-🔧 Training
-Prepare your RGB+IR dataset in YOLO format. Update the .yaml file under data/ to include your dataset paths.
-```bash
-python train.py \
-  --img 1024 \
-  --batch 8 \
-  --epochs 100 \
-  --data data/multispectral/vedai_color_2.yaml \
-  --cfg models/DARFnet.yaml \
-```
